@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+  --paragraph-font: Roboto;
+}
 body {
     text-align: center;
+    background-color: #FCA6C9;
+    
   }
   a {
     text-align: center;
@@ -8,24 +14,74 @@ body {
     margin: 40px;
   }
   h1 {
+    font-family: var(--paragraph-font);
     text-align: center;
+    font-size: 3.5em;
+    line-height: 1.5em;
+    color: black;
   } 
   h2 {
+    font-family: var(--paragraph-font);
     text-align: center;
+    color: white;
   }
+  p.a{
+    font-family: var(--paragraph-font);
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+  }
+
  img {
     text-align: center;
     width: 300px;
     display: block;
     margin: 0 auto;
  }
- footer {
+ div{
   text-align: center;
-}
+  width: 700px;
+  display: block;
+  margin: 0 auto;
+ }
+ .container {
+  text-align: center;
+  align-items: center;
+ }
+ footer {
+  font-family: var(--paragraph-font);
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+  margin: 0 auto;
+  color:black;
+ }
  .main-para {
   font-size: 1.5em;
   line-height: 1.5em;
-  width: 80%;
   margin: 0 auto;
   text-align: center;
-}
+  color: white;
+ }
+ .last-para {
+  font-size: 3.5em;
+  line-height: 1.5em;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+ }
+ li {
+  font-family: var(--paragraph-font);
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin: 0 auto;
+  text-align: left;
+ }
+ p.b{
+    text-align: center;
+ }
+ p.c{
+    text-align: center;
+ }

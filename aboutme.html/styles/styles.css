@@ -30,6 +30,7 @@ body {
     width: 80%;
     margin: 0 auto;
     text-align: center;
+    color: white;
   }
   #active {
     background-color: white;
