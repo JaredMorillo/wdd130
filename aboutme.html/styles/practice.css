@@ -1,3 +1,31 @@
 body {
     text-align: center;
+  }
+  a {
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    margin: 40px;
+  }
+  h1 {
+    text-align: center;
   } 
+  h2 {
+    text-align: center;
+  }
+ img {
+    text-align: center;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+ }
+ footer {
+  text-align: center;
+}
+ .main-para {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
