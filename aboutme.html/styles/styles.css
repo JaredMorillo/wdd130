@@ -1,10 +1,6 @@
 body {
     text-align: center;
   }
-  nav {
-    background-color: steelblue;
-    padding: 10px;
-  }
   a {
     text-align: center;
     font-size: 1.5em;
@@ -27,8 +23,6 @@ body {
   }
   footer {
     text-align: center;
-    background-color: steelblue;
-    color: white;
   }
   .main-para {
     font-size: 1.5em;
@@ -44,3 +38,16 @@ body {
   * {
     border: 2px solid blue;
   } 
+  a:hover {
+    background-color: white;
+    color: steelblue;
+  }
+  nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+  }
+  footer p {
+    font-size: 20px;
+    margin: 20px auto;
+  }
