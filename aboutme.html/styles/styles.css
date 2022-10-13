@@ -1,15 +1,22 @@
 body {
     text-align: center;
+    margin: 0
+  }
+  nav {
+    background-color: steelblue;
+    padding: 25px;
   }
   a {
     text-align: center;
     font-size: 1.5em;
     color: white;
     margin: 40px;
+    padding: 25px;
   }
   h1 {
     text-align: center;
     color: steelblue;
+    margin: 50px 0;
   }
   img {
     width: 80%;
@@ -23,6 +30,8 @@ body {
   }
   footer {
     text-align: center;
+    background-color: steelblue;
+    color: white;
   }
   .main-para {
     font-size: 1.5em;
@@ -51,4 +60,5 @@ body {
   footer p {
     font-size: 20px;
     margin: 20px auto;
+    padding: 25px;
   }
