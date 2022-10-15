@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    margin: 0 auto;
+    background-color: #737373;
+}
+.top {
+    width: 100%;
+}
+.graphic {
+    border: 15px solid #444444;
+    border-radius: 50%;
+    width: 20%;
+    margin: 75px;
+}
+.desk{
+    border: 15px solid #444444;
+    margin: 75px;
+    width: 20%;
+    border-radius: 50%;
+}
+.person{
+    border: 15px solid #444444;
+    margin: 75px;
+    width: 20%;
+    border-radius: 50%;
+}
