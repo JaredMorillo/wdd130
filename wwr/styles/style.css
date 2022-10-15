@@ -1,5 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 body {
     background-color:white;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+.home-title {
+    font-family: 'Dancing Script';
+    color:#C17767;
+    font-size: 2em;
+    margin-top: 10px;
+    
+}
+a {
+    font-family: 'Balsamiq Sans'; 
+}
+h2 {
+    margin: 0;
+    font-family: 'Balsamiq Sans';
+}
+#hero-msg h4 {
+    font-family: 'Balsamiq Sans';
 }
 header {
     background-color:#6D98BA;
@@ -12,6 +34,7 @@ nav a:hover {
     width: 80px;
 } 
 .icon {
+    padding-top: 10px;
     width: 80px;
 } 
 #hero-img {
@@ -19,9 +42,18 @@ nav a:hover {
     margin: 0 auto;
 } 
 nav a {
+    padding: 35px;
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+}
+.msg p {
+    padding-bottom: 15px;
+    font-family: 'Balsamiq Sans'; 
+    font-size: .8em;
+}
+.card-img {
+    border: 10px;
 }
 #hero-msg h1{
     text-align: center;
@@ -35,17 +67,31 @@ nav a {
 main section{
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 #background {
     height: 725px;
     background-color: #D3B99F;
 }
+#logo-link{
+    padding-top: 5px;
+}
 .book{
+    padding: 15px 30px;
     background-color:#52C7CA;
     text-decoration: none;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join{
+    padding: 15px 30px;
     background-color:#52C7CA;
     text-decoration: none;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color:#C17767;
@@ -53,15 +99,31 @@ main section{
 .join:hover{
     background-color:#C17767;
 }
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
 .msg{
+    padding: 35px;
     background-color:#6D98BA;
+    line-height: 1.5em;
 }
 #content{
     max-width: 1600px;
     margin: 0 auto;
 }
 footer {
+    padding: 25px 50px;
     background-color:#6D98BA;
+    margin-top: 200px;
+}
+footer .social img {
+    padding-top: 15px;
 }
 footer a{
     background-color:#52C7CA;
