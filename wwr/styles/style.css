@@ -130,6 +130,7 @@ footer a{
     text-decoration: none;
 }
 footer p {
+    font-family: 'Balsamiq Sans';
     font-size: 1.2em;
 }    
 footer p a:hover {
