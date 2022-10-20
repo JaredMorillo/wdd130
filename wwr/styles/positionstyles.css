@@ -2,6 +2,10 @@
 /* Activity 1 styles */
 .content1 {
   /* This is the parent of the activity 1 boxes. */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  grid-gap: 20px;
 
 }
 .red1 { 
@@ -29,6 +33,10 @@
 /* Activity 2 styles */ 
 .content2 {
   /* This is the parent of the activity 2 boxes. */
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px 50px;
+  justify-items: center;
 }
 .red2 {
   width: 100px; 
@@ -53,6 +61,10 @@
 /* Activity 3 styles */ 
 .content3 {
   /* This is the parent of the activity 3 boxes. */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  column-gap: 80px ;
 }
 .red3 {
   width: 100px; 
@@ -77,6 +89,10 @@
 /* Activity 4 styles */ 
 .content4 {
   /* This is the parent of the activity 4 boxes. */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: stretch;
+  grid-template-rows: 100px 100px 100px;
   height: 400px;
 }
 .red4 {
@@ -129,6 +145,9 @@
 /* Activity 6 styles */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
 }
 .red6 {
   width: 100px; 
