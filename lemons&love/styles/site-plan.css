@@ -64,6 +64,9 @@ header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
 
+.home-wireframe{
+  width: 500px;
+}
 p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color);
