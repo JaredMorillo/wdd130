@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+body {
+    background-color:white;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+.home-title {
+    font-family: 'Dancing Script';
+    color:#C17767;
+    font-size: 2em;
+    margin-top: 10px;
+    
+}
+.logo {
+    width: 150px;
+} 
+a {
+    font-family: 'Balsamiq Sans'; 
+}
+nav a:hover {
+    background-color: black;
+    color: #D3B99F;
+} 
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    padding: 35px;
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+header {
+    background-color:#6D98BA;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+h2 {
+    margin: 0;
+    font-family: 'Balsamiq Sans';
+    padding: 15px 30px;
+    font-size: 100px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color:#52C7CA;
+    text-decoration: none;
+    text-align: center;
+    color:#C17767; 
+    z-index: 1;   
+}
+
+footer {
+    padding: 25px 50px;
+    background-color:#6D98BA;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .social img {
+    padding-top: 15px;
+}
+footer a{
+    background-color:#52C7CA;
+    text-decoration: none;
+}
+footer p {
+    font-family: 'Balsamiq Sans';
+    font-size: 1.2em;
+}    
+footer p a:hover {
+    text-decoration: underline;
+}
