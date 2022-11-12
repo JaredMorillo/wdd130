@@ -164,6 +164,9 @@ footer a{
     background-color:#52C7CA;
     text-decoration: none;
 }
+.footer-p{
+    color:black
+}
 footer p {
     font-family: 'Balsamiq Sans';
     font-size: 1.2em;
