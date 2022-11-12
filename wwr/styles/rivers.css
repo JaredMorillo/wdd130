@@ -44,7 +44,7 @@ header {
 }
 
 
-h2 {
+#welcome {
     margin: 0;
     font-family: 'Balsamiq Sans';
     padding: 15px 30px;
@@ -54,8 +54,74 @@ h2 {
     background-color:#52C7CA;
     text-decoration: none;
     text-align: center;
-    color:#C17767; 
-    z-index: 1;   
+    color:#C17767;   
+}
+#river-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.first-river h2 p{
+    padding-bottom: 15px;
+    font-family: 'Balsamiq Sans'; 
+    font-size: .8em;
+    text-align: center;
+
+}
+.second-river h2 p{
+    padding-bottom: 15px; 
+    font-family: 'Balsamiq Sans'; 
+    font-size: .8em;
+    text-align: center;
+
+}
+.third-river h2 p{
+    padding-bottom: 15px;
+    font-family: 'Balsamiq Sans'; 
+    font-size: .8em;
+    text-align: center;
+
+}
+.new-book {
+    text-align: center;
+    font-family: 'Balsamiq Sans';
+    color:#C17767;
+}
+.highlights {
+    text-align: center;
+    font-family: 'Balsamiq Sans';
+    color:#C17767;
+}
+.rafting1{
+    width: 100%;
+    grid-column: 2;
+    grid-row: 1;  
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.rafting2{
+    width: 100%;
+    grid-column: 1;  
+    grid-row: 2;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.rafting3{
+    width: 100%;
+    grid-column: 2;  
+    grid-row: 3;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+#river-grid h2{
+    font-family: 'Dancing Script'; 
+    color:#52C7CA;
+    align-items: center;
+}
+p {
+    font-family: 'Balsamiq Sans';
+    color:#6D98BA;
+}
+#faq{
+    font-family: 'Dancing Script';
+    color:#6f7364;
 }
 
 footer {
