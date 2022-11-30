@@ -7,7 +7,9 @@
     <title>Lemons & Love | Healthy Recipes | Products </title>
     <link type="text/css" rel="stylesheet" href="styles/contactus.css">
 </head>
-<body>
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
     <div id ="content">
         <header>
             <a id="logo" href="index.html">
@@ -77,5 +79,17 @@
                 document.body.classList.toggle('moveDown');
             });
         </script>
+        <script>
+            var myVar;
+            
+            function myFunction() {
+              myVar = setTimeout(showPage, 3000);
+            }
+            
+            function showPage() {
+              document.getElementById("loader").style.display = "none";
+              document.getElementById("myDiv").style.display = "block";
+            }
+        </script>    
 </body>
 </html>

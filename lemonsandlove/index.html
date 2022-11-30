@@ -7,7 +7,9 @@
     <title>Lemons & Love | Healthy Recipes | Products </title>
     <link type="text/css" rel="stylesheet" href="styles/index.css">
 </head>
-<body>
+<body onload="myFunction()" style="margin:0;">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate-bottom">
     <div id ="content">
         <header>
             <a id="logo" href="index.html">
@@ -15,7 +17,7 @@
             </a>
             <nav>
                 <a href="index.html">Home</a>
-                <a href="healthy_recipes">Healthy Recipes</a>
+                <a href="healthy_recipes.html">Healthy Recipes</a>
                 <a href="site-plan.html">Site Plan</a>
                 <a href="contactus.html">Contact Us</a>
             </nav>
@@ -65,5 +67,18 @@
             </a>
         </div>
     </footer>   
+</div>
+<script>
+    var myVar;
+    
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+    
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+</script>
 </body>
 </html>
