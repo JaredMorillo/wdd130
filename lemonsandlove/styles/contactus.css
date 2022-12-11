@@ -26,7 +26,7 @@ a {
 }
 nav a:hover {
     background-color: black;
-    color: #396E94;
+    color: #89B92A;
 } 
 nav{
     display: flex;
@@ -35,7 +35,7 @@ nav{
 nav a {
     padding: 35px;
     text-align: center;
-    color: #396E94;
+    color: #89B92A;
     text-decoration: none;
     justify-items: center;
 }

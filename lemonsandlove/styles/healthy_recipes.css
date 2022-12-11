@@ -26,7 +26,7 @@ a {
 }
 nav a:hover {
     background-color: black;
-    color: #396E94;
+    color: #89B92A;
 } 
 nav{
     display: flex;
@@ -35,7 +35,7 @@ nav{
 nav a {
     padding: 35px;
     text-align: center;
-    color: #396E94;
+    color: #89B92A;
     text-decoration: none;
     justify-items: center;
 }
@@ -62,21 +62,21 @@ header {
     grid-template-rows: 1fr 1fr 1fr;
     gap: 2em 1em;
 }
-.first-fruit h2 p{
+.first-fruit h2  p{
     padding-bottom: 15px;
     font-family: 'Balsamiq Sans'; 
     font-size: .8em;
     text-align: center;
 
 }
-.second-fruit h2 p{
+.second-fruit h2  p{
     padding-bottom: 15px; 
     font-family: 'Balsamiq Sans'; 
     font-size: .8em;
     text-align: center;
 
 }
-.third-fruit h2 p{
+.third-fruit h2  p{
     padding-bottom: 15px;
     font-family: 'Balsamiq Sans'; 
     font-size: .8em;
@@ -117,6 +117,10 @@ header {
     align-items: center;
 }
 p {
+    font-family: 'Balsamiq Sans';
+    color:#51A033;
+}
+ul {
     font-family: 'Balsamiq Sans';
     color:#51A033;
 }
